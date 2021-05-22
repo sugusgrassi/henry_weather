@@ -5,7 +5,7 @@ import '../containers/App.css';
 
 var style = {
     backgroundImage: "linear-gradient(to right, #2f6fa0, #47aefe)",
-    borderTop: "1px solid #E7E7E7",
+    // borderTop: "1px solid #E7E7E7",
     textAlign: "left",
     padding: "20px",
     position: "fixed",

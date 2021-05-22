@@ -16,14 +16,16 @@
 
 .fondodia {
   background: url("https://feriasycongresos.s3-sa-east-1.amazonaws.com/ag/fondo-vectorial-dia-ag.png") no-repeat center top;
-  background-size: 140vw;
+  background-size: 100vw;
   background-color: white;
+  
 }
 
 
 @media screen and (max-width:960px) {
   .fondonoche, .fondodia {
-    background-size: 200vw;
+    background-size: 160vw;
+    background-position-y:-5%;
   }   
 }
 

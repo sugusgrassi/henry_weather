@@ -11,7 +11,7 @@ import Footer from '../components/Footer.jsx';
 import Swal from 'sweetalert2';
 // https://github.com/sweetalert2/sweetalert2-react-content
 
-const apiKey = '88984cab2d5bccde04ba1bc7d7159628';
+const apiKey = process.env.REACT_APP_API_KEY_WEATHER;
 
 function App() {
   const [cities, setCities] = useState([]);

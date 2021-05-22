@@ -1,5 +1,5 @@
 {
-  "homepage":"https://sugusgrassi.github.io/henry_weather/",
+  "homepage": "https://sugusgrassi.github.io/henry_weather/",
   "name": "henry-weather-app",
   "version": "1.0.0",
   "dependencies": {
@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^13.1.1",
+    "dotenv": "^10.0.0",
     "node-fetch": "^2.6.1",
     "prompt-sync": "^4.2.0",
     "react": "^17.0.2",
