@@ -28,7 +28,7 @@ export default function Footer() {
             <div style={phantom} />
             <div style={style}>
                 <span className="footertext">Made with ♡ by <a href="https://sugusgrassi.netlify.app/" target="blank" className="footerlinks">@sugusgrassi</a></span>
-                <Link to="/about">
+                <Link to="/henry_weather/about">
                 <span className=" footerlinks">🌞 About</span>
                 </Link>
             </div>

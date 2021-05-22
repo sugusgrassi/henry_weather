@@ -14,12 +14,12 @@ function Nav({onSearch}) {
   return (
     <nav className="navbar">
 <div className="navElement">
-        <Link to='/' className="full-text">
+        <Link to='/henry_weather/' className="full-text">
           <span >
             Henry 🚀 Weather App
           </span>
         </Link>
-        <Link to='/' className="short-text">
+        <Link to='/henry_weather/' className="short-text">
           <span >
             HWA 🚀
           </span>

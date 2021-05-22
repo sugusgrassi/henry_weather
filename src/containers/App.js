@@ -11,7 +11,7 @@ import Footer from '../components/Footer.jsx';
 import Swal from 'sweetalert2';
 // https://github.com/sweetalert2/sweetalert2-react-content
 
-const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
+const apiKey = '88984cab2d5bccde04ba1bc7d7159628';
 
 function App() {
   const [cities, setCities] = useState([]);
@@ -103,7 +103,7 @@ function App() {
             onClose={onClose}
           />}
         />
-        <Route component={E404} />
+        <Route path="/henry_weather/*" component={E404} />
       </Switch>
       
         <Route
