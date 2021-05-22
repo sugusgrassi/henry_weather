@@ -6,6 +6,7 @@ import Cards from '../components/Cards.jsx';
 import About from '../components/About.jsx';
 import Ciudad from '../components/Ciudad.jsx';
 import E404 from '../components/E404.jsx';
+import Footer from '../components/Footer.jsx';
 
 import Swal from 'sweetalert2';
 // https://github.com/sweetalert2/sweetalert2-react-content
@@ -104,6 +105,11 @@ function App() {
         />
         <Route component={E404} />
       </Switch>
+      
+        <Route
+        path="/" 
+        render={() => <Footer/>}
+      />
       </div>
       
 

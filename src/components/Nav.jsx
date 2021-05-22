@@ -13,17 +13,24 @@ import { Link } from 'react-router-dom';
 function Nav({onSearch}) {
   return (
     <nav className="navbar">
-      <Link to='/'>
-        <span className="navbar">
-          Henry - Weather App
-        </span>
-      </Link>
-      <Link to="/about">
-        <span className="navlinks" style={{ textDecoration: 'none' }}>About</span>
-      </Link>
-      <SearchBar
-        onSearch={onSearch}
-      />
+<div className="navElement">
+        <Link to='/' className="full-text">
+          <span >
+            Henry 🚀 Weather App
+          </span>
+        </Link>
+        <Link to='/' className="short-text">
+          <span >
+            HWA 🚀
+          </span>
+        </Link>
+</div>
+<div className="navElement">
+        <SearchBar
+          className="navElement"
+          onSearch={onSearch}
+        />
+</div>
     </nav>
   );
 };

@@ -7,13 +7,14 @@
 .navbar{
   text-decoration: none;
   color: white;
-  background-color: var(--main-color);
+  background: var(--gradiente-color);
+  padding-top: 15px;
 }
 
 .navlinks {
   text-decoration: none;
   color: white;
-  
+  padding-bottom: 10px;
 }
 
 .navlinks:hover, .navlinks:link, .navlinks:focus{
@@ -22,3 +23,15 @@
   
 }
 
+.navElement {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.short-text { display: none; }
+
+/* // When resolution <= 1200px, hide full text and show short text */
+@media (max-width: 470px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
