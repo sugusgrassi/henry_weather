@@ -1,0 +1,21 @@
+.inputsearch {
+    border: none;
+    border-radius: 0 8px 0  0;
+    border: 1px solid var(--main-color);
+    outline: none;
+    font-family: var(--font-family);
+}
+
+.searchbutton {
+    border: 1px solid white;
+    border-radius: 0 8px 0 0;
+    background-color: var(--main-color);
+    margin-left: 5px;
+    color: white;
+}
+
+.searchbutton:hover {
+    border: 1px solid var(--main-color);
+    background-color: white;
+    color: var(--main-color);
+}
