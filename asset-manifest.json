@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/henry_weather/static/css/main.b0440d6a.chunk.css",
-    "main.js": "/henry_weather/static/js/main.aba158e5.chunk.js",
-    "main.js.map": "/henry_weather/static/js/main.aba158e5.chunk.js.map",
+    "main.css": "/henry_weather/static/css/main.cf309162.chunk.css",
+    "main.js": "/henry_weather/static/js/main.7cecfec6.chunk.js",
+    "main.js.map": "/henry_weather/static/js/main.7cecfec6.chunk.js.map",
     "runtime-main.js": "/henry_weather/static/js/runtime-main.97901894.js",
     "runtime-main.js.map": "/henry_weather/static/js/runtime-main.97901894.js.map",
-    "static/js/2.c68655e0.chunk.js": "/henry_weather/static/js/2.c68655e0.chunk.js",
-    "static/js/2.c68655e0.chunk.js.map": "/henry_weather/static/js/2.c68655e0.chunk.js.map",
+    "static/js/2.c76aa039.chunk.js": "/henry_weather/static/js/2.c76aa039.chunk.js",
+    "static/js/2.c76aa039.chunk.js.map": "/henry_weather/static/js/2.c76aa039.chunk.js.map",
     "index.html": "/henry_weather/index.html",
-    "static/css/main.b0440d6a.chunk.css.map": "/henry_weather/static/css/main.b0440d6a.chunk.css.map",
-    "static/js/2.c68655e0.chunk.js.LICENSE.txt": "/henry_weather/static/js/2.c68655e0.chunk.js.LICENSE.txt"
+    "static/css/main.cf309162.chunk.css.map": "/henry_weather/static/css/main.cf309162.chunk.css.map",
+    "static/js/2.c76aa039.chunk.js.LICENSE.txt": "/henry_weather/static/js/2.c76aa039.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.97901894.js",
-    "static/js/2.c68655e0.chunk.js",
-    "static/css/main.b0440d6a.chunk.css",
-    "static/js/main.aba158e5.chunk.js"
+    "static/js/2.c76aa039.chunk.js",
+    "static/css/main.cf309162.chunk.css",
+    "static/js/main.7cecfec6.chunk.js"
   ]
 }
