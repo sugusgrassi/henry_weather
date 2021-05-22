@@ -26,14 +26,14 @@ function App() {
     document.body.classList.add('fondonoche');
   });
 
-
+  
 
   function onClose(id) {
     setCities(oldCities => oldCities.filter(c => c.id !== id));
   }
   function onSearch(ciudad) {
     //Llamado a la API del clima
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`)
       .then(r => r.json())
       .then((recurso) => {
         if(recurso.main !== undefined){
@@ -103,7 +103,7 @@ function App() {
             onClose={onClose}
           />}
         />
-        <Route component={E404} />
+        {/* <Route component={E404} /> */}
       </Switch>
       
         <Route
