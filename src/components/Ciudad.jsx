@@ -1,12 +1,19 @@
 import React from "react";
 import E404 from "./E404";
+import './Ciudad.css';
+import { Link } from 'react-router-dom';
 
 export default function Ciudad({city}) {
     if (city) {
     return (
-        <div className="ciudad">
-                <div className="container">
-                    <h2>{city.name}</h2>
+        <div className="cityContainer">
+                <div className="cityCard">
+                    <Link to="/">
+                        <div id="closeIcon" className="row">
+                        <button className="xbutton">X</button>
+                        </div>
+                    </Link>
+                    <h2>{city.name}, {city.country}</h2>
                     <div className="info">
                         <div>Temperatura: {city.temp} ºC</div>
                         <div>Clima: {city.weather}</div>

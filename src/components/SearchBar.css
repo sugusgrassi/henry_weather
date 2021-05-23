@@ -4,6 +4,8 @@
     border: 1px solid var(--main-color);
     outline: none;
     font-family: var(--font-family);
+    line-height: 18px;
+    height: 30px;
 }
 
 .searchbutton {
@@ -12,6 +14,8 @@
     background-color: var(--main-color);
     margin-left: 5px;
     color: white;
+    line-height: 18px;
+    height: 30px;
 }
 
 .searchbutton:hover {
@@ -19,3 +23,4 @@
     background-color: white;
     color: var(--main-color);
 }
+

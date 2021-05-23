@@ -34,4 +34,8 @@
 @media (max-width: 470px) {
     .short-text { display: inline-block; }
     .full-text { display: none; }
+    .navElement {
+      font-size: 14px;
+    }
 }
+

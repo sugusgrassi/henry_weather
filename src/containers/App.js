@@ -33,7 +33,7 @@ function App() {
   }
   function onSearch(ciudad) {
     //Llamado a la API del clima
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
       .then(r => r.json())
       .then((recurso) => {
         if(recurso.main !== undefined){
@@ -80,34 +80,34 @@ function App() {
         >
       {/* route captura la URL en la que uno está y muestra un componente o no como queremos que nav esté siempre, va SIN exact*/}
       <Route
-        path="/henry_weather/" 
+        path="/" 
         render={() => <Nav onSearch={onSearch}/>}
       />
       <div>
       <Switch>
       <Route
-        path='/henry_weather/about' exact
+        path='/about' exact
         component={About}
         />
         {/* params siempre es un string, de la URL */}
         <Route
-          exact path='/henry_weather/ciudad/:ciudadId' exact
+          exact path='/ciudad/:ciudadId' exact
           render={({match}) => <Ciudad city={onFilter(match.params.ciudadId)}/>}
         />
         {/* Las cards deben aparecer solo en "/" */}
         <Route
-          path="/henry_weather/" exact
+          path="/" exact
           render={() => 
           <Cards
             cities={cities}
             onClose={onClose}
           />}
         />
-        <Route path="/henry_weather/*" component={E404} />
+        <Route component={E404} />
       </Switch>
       
         <Route
-        path="/henry_weather/" 
+        path="/" 
         render={() => <Footer/>}
       />
       </div>

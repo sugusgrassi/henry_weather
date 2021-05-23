@@ -25,7 +25,12 @@
 @media screen and (max-width:960px) {
   .fondonoche, .fondodia {
     background-size: 160vw;
-    background-position-y:-5%;
+  }   
+}
+
+@media screen and (max-width:540px) {
+  .fondonoche, .fondodia {
+    background-size: 200vw;
   }   
 }
 
@@ -42,4 +47,9 @@
 a:-webkit-any-link {
   text-decoration: none;
   color: inherit;
+}
+
+
+h2 {
+  color: var(--main-color);
 }
