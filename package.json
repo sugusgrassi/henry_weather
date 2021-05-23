@@ -1,5 +1,4 @@
 {
-  "homepage": "https://sugusgrassi.github.io/henry_weather/",
   "name": "henry-weather-app",
   "version": "1.0.0",
   "dependencies": {
@@ -18,8 +17,6 @@
     "sweetalert2": "^11.0.9"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
