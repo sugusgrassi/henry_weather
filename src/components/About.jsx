@@ -12,7 +12,7 @@ export default function About() {
         </div>
         </Link>
           <h2>About</h2>
-          <p ><strong>Hi! I'm Agustín Grassi</strong>. I'm a graphic designer and a web developer, <strong>and this is my ideal weather app!</strong> Illustrative and iconic, depending on whether it's daytime por nighttime, the background changes. This is a project that I developed at Henry, a coding bootcamp in Latin America</p>
+          <p ><strong>Hi! I'm Agustín Grassi</strong>. I'm a graphic designer and a web developer, <strong>and this is my ideal weather app!</strong> Illustrative and iconic, depending on whether it's daytime or nighttime, the background changes. This is a project that I developed at Henry, a coding bootcamp in Latin America</p>
         </div>
       </div>
     );
