@@ -53,14 +53,14 @@ function App() {
           };
           for (var item of cities) {
             if (ciudad.id === item.id) {
-              return Swal.fire(`La ciudad ${ciudad.name} ya fue cargada`)
+              return Swal.fire(`${ciudad.name} city is already loaded`)
             }
           }
           // Se agrega en ciudades
           setCities(oldCities => [...oldCities, ciudad]);
           // Si no se obtiene:
         } else {
-          Swal.fire("Ciudad no encontrada");
+          Swal.fire("City not found");
         }
       });
   }
